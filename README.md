@@ -2,12 +2,16 @@
 
 ## Your Tour Guide
 
-This project is a simple web application built with Streamlit and Langchain that helps users find major tourist attractions in the capital city of a selected country. 
+This project is a simple web application built with Streamlit and Langchain that helps users find major tourist attractions in the capital city of a selected country.
 
 ### Features
 - Select a country from the sidebar.
 - Get the capital city of the selected country.
 - Get the top 5 major tourist attractions in the capital city.
+
+### Hosted Application
+
+You can access the hosted application [here](https://yourtourguide.streamlit.app/).
 
 ### Prerequisites
 
@@ -79,8 +83,4 @@ To contribute to this project, please fork the repository and create a pull requ
 
 ### Contact
 
-If you have any questions or suggestions, feel free to open an issue or contact on miyannishar786@gmail.com.
-
----
-
-This README provides a comprehensive overview of the project, instructions for installation and running the app, and a brief description of the code structure.
+If you have any questions or suggestions, feel free to open an issue or contact the repository owner.
