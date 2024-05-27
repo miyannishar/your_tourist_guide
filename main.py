@@ -9,8 +9,8 @@ country = st.sidebar.selectbox("Pick you next destination Country", ("Afghanista
 if country:
     response = langhchain_helper.generate_attraction_in_capital(country)
 
-    st.header("Capital City: " + response['city'])
-    attractions = response["places"].split(",")
+    st.header("Capital City: " + response['city'].strip())
+    attractions = response["places"].strip().split(",")
     st.write("**Major Tourist Attraction in the city**")
     for attraction in attractions:
-        st.write("-", attraction)
+        st.write(attraction)
